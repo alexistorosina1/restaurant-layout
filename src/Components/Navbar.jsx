@@ -3,7 +3,7 @@ export default function Navbar(){
         <header>
             <nav className="navbar">
                 {/* <img /> */}
-                <h1>title</h1>
+                <h1>Sabores De Mi Tierra</h1>
                 <ul>
                     <li><a href="/menu">Menu</a></li>   
                     <li><a href="/drinks">Drinks</a></li>
