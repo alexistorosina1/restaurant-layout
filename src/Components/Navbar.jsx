@@ -2,7 +2,7 @@ export default function Navbar(){
     return(
         <header>
             <nav className="navbar">
-                <img />
+                {/* <img /> */}
                 <h1>title</h1>
                 <ul>
                     <li><a href="/menu">Menu</a></li>   
