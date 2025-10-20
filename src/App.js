@@ -6,10 +6,12 @@ import Homepage from './Components/HomePage';
 
 function App() {
   return (
-    <>
+    <Router>
       <Navbar />
-      <Homepage />
-    </>
+      <Routes>
+        <Route path="/" element={<Homepage />}/>
+      </Routes>
+    </Router>
   );
 }
 
