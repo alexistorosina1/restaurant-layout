@@ -1,3 +1,5 @@
+import  { Link }  from "react-router-dom"
+
 export default function Navbar(){
     return(
         <header>
@@ -5,9 +7,9 @@ export default function Navbar(){
                 {/* <img /> */}
                 <h1>Sabores De Mi Tierra</h1>
                 <ul>
-                    <li><a href="/menu">Menu</a></li>   
-                    <li><a href="/drinks">Drinks</a></li>
-                    <li><a href="/contact">Contact Us</a></li>
+                    <li><Link href="/Menu">Menu</Link></li>   
+                    <li><Link href="/About">About</Link></li>
+                    <li><Link href="/Contact">Contact Us</Link></li>
                 </ul>
             </nav>
         </header>
