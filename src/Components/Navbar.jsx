@@ -5,9 +5,9 @@ export default function Navbar(){
                 <img />
                 <h1>title</h1>
                 <ul>
-                    <li>Menu</li>
-                    <li>Drinks</li>
-                    <li>Contact Us</li>
+                    <li><a href="/menu">Menu</a></li>   
+                    <li><a href="/drinks">Drinks</a></li>
+                    <li><a href="/contact">Contact Us</a></li>
                 </ul>
             </nav>
         </header>
