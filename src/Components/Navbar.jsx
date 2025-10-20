@@ -1,10 +1,10 @@
 export default function Navbar(){
     return(
-        <nav className="navbar">
+        <nav>
             <ul>
                 <li>Menu</li>
-                <li>Contact</li>
-                <li>About Us</li>
+                <li>Drinks</li>
+                <li>Contact Us</li>
             </ul>
         </nav>
     )
