@@ -42,3 +42,8 @@ code {
   color: black;
   cursor: pointer;
 }
+
+.about-container{
+  display: flex;
+  justify-content: center;
+}
