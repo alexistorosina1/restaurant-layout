@@ -7,9 +7,9 @@ export default function Navbar(){
                 {/* <img /> */}
                 <h1>Sabores De Mi Tierra</h1>
                 <ul>
-                    <li><Link href="/Menu">Menu</Link></li>   
-                    <li><Link href="/About">About</Link></li>
-                    <li><Link href="/Contact">Contact Us</Link></li>
+                    <li><a href="#Menu">Menu</a></li>   
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">Contact Us</a></li>
                 </ul>
             </nav>
         </header>
